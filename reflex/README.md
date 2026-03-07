@@ -1,22 +1,22 @@
 # Informacion para inatalar Reflex
 
-# Primero creamos nuestro entorno Virtual en Windows
-  python.exe -m venv venv   
+# Primero creamos nuestro entorno Virtual en Windows.
+  * python.exe -m venv venv   
 
-# Primero creamos nuestro entorno Virtual en MAC/LINUX
-  python312 -m venv venv   
+# Primero creamos nuestro entorno Virtual en MAC/LINUX.
+  * python312 -m venv venv   
 
-# Activamos nuestro entorno Virtual en Windows
-  ./menv/Scripts/activate
+# Activamos nuestro entorno Virtual en Windows.
+  * ./menv/Scripts/activate
 
-# Activamos nuestro entorno Virtual en MAC/LINUS
-  source venv/bin/activate
+# Activamos nuestro entorno Virtual en MAC/LINUS.
+  * source venv/bin/activate
 
-* Install reflex using pip con en venv Activado.
-  pip install pip --upgrade    //aqui actializamos nuestro pip
-  pip install reflex
+# Install reflex using pip con en venv Activado.
+  * pip install pip --upgrade    //aqui actializamos nuestro pip
+  * pip install reflex
 
-# Creamos la carpeta de nuestro Proyecto
+# Creamos la carpeta de nuestro Proyecto.
   md my_project
   cd my_project
   reflex init  //inicializamos nuestro proyecto Reflex
@@ -27,5 +27,5 @@
 
   import reflex as rx  //dentro de nuestra aplicacion reflex debemos importar libreria de relfex como rx siempre
 
-# Ejecutamos nuestra aplicacion
+# Ejecutamos nuestra aplicacion.
   reflex run   // automaticamente ejecutara con puerto 3000

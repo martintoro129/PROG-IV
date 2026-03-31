@@ -7,7 +7,7 @@
   * python312 -m venv venv   
 
 # Activamos nuestro entorno Virtual en Windows.
-  * ./menv/Scripts/activate
+  * ./venv/Scripts/activate
 
 # Activamos nuestro entorno Virtual en MAC/LINUS.
   * source venv/bin/activate
